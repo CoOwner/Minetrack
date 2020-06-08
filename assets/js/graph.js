@@ -218,7 +218,7 @@ export class GraphDisplayManager {
 
                 let serverName = serverRegistration.data.name
                 if (closestSeriesIndex === serverRegistration.getGraphDataIndex()) {
-                  serverName = `<strong>${serverName}</strong>`
+                  // serverName = `<strong>${serverName}</strong>`
                 }
                 if (serverRegistration.isFavorite) {
                   serverName = `<span class="${this._app.favoritesManager.getIconClass(true)}"></span> ${serverName}`
